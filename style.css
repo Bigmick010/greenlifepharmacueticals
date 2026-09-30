@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -608,7 +612,7 @@ textarea{
 
     .Services{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: -15px;
     }
 
